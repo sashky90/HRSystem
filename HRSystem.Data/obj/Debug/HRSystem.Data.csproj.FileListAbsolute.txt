@@ -1,0 +1,12 @@
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Data\obj\Debug\HRSystem.Data.csprojResolveAssemblyReference.cache
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Data\bin\Debug\HRSystem.Data.dll.config
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Data\bin\Debug\HRSystem.Data.dll
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Data\bin\Debug\HRSystem.Data.pdb
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Data\bin\Debug\EntityFramework.dll
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Data\bin\Debug\HRSystem.Models.dll
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Data\bin\Debug\HRSystem.Models.pdb
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Data\bin\Debug\EntityFramework.xml
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Data\obj\Debug\HRSystem.Data.dll
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Data\obj\Debug\HRSystem.Data.pdb

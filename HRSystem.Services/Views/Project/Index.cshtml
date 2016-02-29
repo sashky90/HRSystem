@@ -1,0 +1,49 @@
+﻿@model IEnumerable<HRSystem.Models.Project>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New Project", "Create", null, new { @class = "btn btn-default" })
+</p>
+
+<table class="table table-striped table-hover table-bordered">
+    <tr>
+        <th>@Html.DisplayName("Name")</th>
+        <th>@Html.DisplayName("Delivery")</th>
+        <th>@Html.DisplayName("Teams")</th>
+        <th></th>
+    </tr>
+
+    @foreach (var project in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => project.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => project.Delivery)
+            </td>
+            <td>
+                <ul>
+                    @foreach (var team in project.Teams)
+                    {
+                        <li>@team.Name</li>
+                    }
+                </ul>
+            </td>
+            <td>
+                <div class="btn-group" role="group">
+                    <a class="btn btn-default" href="@Url.Action("Details", "Project", new { id = project.Id })">
+                        Details
+                        <span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>
+                    </a>
+                </div>
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,5 @@
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Models\obj\Debug\HRSystem.Models.csprojResolveAssemblyReference.cache
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Models\bin\Debug\HRSystem.Models.dll
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Models\bin\Debug\HRSystem.Models.pdb
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Models\obj\Debug\HRSystem.Models.dll
+c:\users\sasho\documents\visual studio 2013\Projects\HRSystem\HRSystem.Models\obj\Debug\HRSystem.Models.pdb

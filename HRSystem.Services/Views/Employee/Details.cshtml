@@ -1,0 +1,87 @@
+﻿@model HRSystem.Services.ViewModels.EmployeeManagersViewModel
+
+@using HRSystem.Services.Helpers;
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Employee</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Employee.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.Position)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Employee.Position)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.Delivery)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Employee.Delivery)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.Salary)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Employee.Salary)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.Workplace)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Employee.Workplace)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.Email)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Employee.Email)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.CellNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Employee.CellNumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Employee.Teams)
+        </dt>
+        <dd>
+            <ul>
+                @foreach (var team in Model.Employee.Teams)
+                {
+
+                    <li>@team.Name</li>
+
+                }
+            </ul>
+        </dd>
+        <dt>
+            @Html.DisplayName("Managers")
+        </dt>
+        <dd>
+            <ul>
+                @foreach (var manager in Model.Managers)
+{
+    <li>
+        @(HRSystem.Services.Helpers.EnumHelper<HRSystem.Models.Enums.Position>.GetDisplayValue((HRSystem.Models.Enums.Position)manager.Position))
+        @Html.DisplayName(": " + manager.Name)
+    </li>
+}
+            </ul>
+        </dd>
+    </dl>
+</div>
+
